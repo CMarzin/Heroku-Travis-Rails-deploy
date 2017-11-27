@@ -21,6 +21,9 @@ Things you may want to cover:
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
-
-* ...
+## Deployment instructions
+___
+Before anything make sure you have installed [Heroku cli]('https://devcenter.heroku.com/articles/heroku-cli') and [Travis cli](https://github.com/travis-ci/travis.rb#installation)
+ - Duplicate the travis.example.yml
+ - Rename it in travis.yml
+ - 
