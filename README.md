@@ -26,4 +26,8 @@ ___
 Before anything make sure you have installed [Heroku cli]('https://devcenter.heroku.com/articles/heroku-cli') and [Travis cli](https://github.com/travis-ci/travis.rb#installation)
  - Duplicate the travis.example.yml
  - Rename it in travis.yml
- - 
+ - execute this command in the terminal to get a token from heroku (in the root of the repo)
+ ```sh
+travis encrypt $(heroku auth:token) --add deploy.api_key
+ ```
+- Thats it ! Now every time you push on master if the build is passing the code will be deployed
