@@ -2,6 +2,15 @@
 
 [![Build Status](https://travis-ci.org/CMarzin/ruby-h4.svg?branch=master)](https://travis-ci.org/CMarzin/ruby-h4)
 
+Example of integration an ruby app with Travis
+___
+
+
+This repo assume you already have an heroku account and an app running on it.
+
+
+Basically, when you push something on master, it trigger travis and travis make all the things you tell him, (in the .travis.yml) and after run the test etc.. it deploy automatically on your app located on heroku.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
