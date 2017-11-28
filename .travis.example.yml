@@ -1,0 +1,7 @@
+deploy:
+  provider: heroku
+  app: The name your app goes here
+  api_key:
+    secure:
+  run:
+  - rake db:migrate

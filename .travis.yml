@@ -1,7 +1,0 @@
-deploy:
-  provider: heroku
-  app: sleepy-reaches-56260
-  api_key:
-    secure: aD4YMBioJlNk51mA19IV3+C+6HlSzJxrqo6t31hakvsxKzoKWdCRSspH/vjfx+SU4drTVH/rvG3REiuaZ5vRJzGirxqJj/9hrl0YLaQR1BC3KrCym+RGMwB5hbNjXNW0lwZhxMdSj6qhg/cjkVnd9R+l2N8Bpd7aSrwli/q8NL0TLOd54A+gtuwMDbqGfPNCzXilxJU4TZAK4f/JZoOaU4GyFiSsWCJtyl1QW6E+hrlbeKRzM4t2xzjz9R/ep5/3ocAMBuTMPHRnRQdiAvKeGoS7+GmOEn4Z2Kv2/eL0DS8ZZiOoaPK+0TtzsHXOp9BNd9QSVHS6M1secEoNUdUbxk9iIzTz8be3IfFLm7FinVWyYChwUmP/XdZYr4cKjyxgokig7zUVsPjqEA7cgIEldQFsNe+zUq/pEOYByGj0WcCknjUjSjp75NI+bzcjrGDki2IdxwS3PmgeM59+Je4rf5ekMOiVHffR4RkUyvgNqC2xclbR3qzw6tVwunY8YPRhv0qYC0Xg8YTU1uJmcIl7IR1H+fogXoV8stjcIXLkSuIXweXH16lEJikzrIOmQIe4q9XPzMDS0c7vyoBsUIh5k5hCUmctGis4Ds3gBWqtxlFB/UmavDbtx24znwl3Y2ITS58JRu13/XoSRq9qpRDBGZbeJGeEWKqm9NphwhMl8D4=
-  run:
-  - rake db:migrate

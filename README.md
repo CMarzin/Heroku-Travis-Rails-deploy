@@ -27,7 +27,9 @@ deploy:
 ## Deployment instructions
 ___
 Before anything make sure you have installed [Heroku cli]('https://devcenter.heroku.com/articles/heroku-cli') and [Travis cli](https://github.com/travis-ci/travis.rb#installation)
-- In the travis file you needto specify the name of your app
+- Duplicate the .travis.example.yml and remove the example from one
+- Now open `.travis.yml` 
+- In the travis file you need to specify the name of your app
 ```yml
 deploy:
   provider: heroku # you don't need to change anything here
